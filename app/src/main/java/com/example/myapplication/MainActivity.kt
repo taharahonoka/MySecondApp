@@ -19,5 +19,13 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        val webViewButton = findViewById<Button>(R.id.web_view_button)
+        webViewButton.setOnClickListener {
+
+            val intent = Intent(this, WebViewActivity::class.java)
+            startActivity(intent)
+
+        }
+
     }
 }

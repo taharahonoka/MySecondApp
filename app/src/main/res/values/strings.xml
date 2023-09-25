@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MyApplication</string>
+
+    <string name="second_activity_text_name">夏なのにドリア</string>
+    <!--ボタン名-->
+    <string name="web_view_button_name">webViewButton</string>
+    <string name="screen_transition_button">screenTransitionButton</string>
+
+    <!--画面名-->
+
 </resources>
