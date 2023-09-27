@@ -26,4 +26,13 @@
         app:layout_constraintTop_toBottomOf="@+id/screen_transition_button"
          />
 
+    <Button
+        android:id="@+id/dialog_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dialogButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/web_view_button"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
