@@ -6,7 +6,7 @@
     <string name="web_view_button_name">webViewButton</string>
     <string name="screen_transition_button">screenTransitionButton</string>
     <string name="dialog_button">dialogButton</string>
-
+    <string name="external_browser_button">externalBrowserButton</string>
 
     <!--画面名-->
 

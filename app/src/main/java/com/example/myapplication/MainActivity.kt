@@ -1,6 +1,7 @@
 package com.example.myapplication
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -42,6 +43,14 @@ class MainActivity : AppCompatActivity() {
                 }).show()
         }
 
+        val externalBrowserButton = findViewById<Button>(R.id.external_browser_button)
+        externalBrowserButton.setOnClickListener {
 
+        val urlstr ="https://toy.bandai.co.jp/series/tamagotchi/chara/"
+
+                // 外部ブラウザ起動
+                val intent = Intent(Intent.ACTION_VIEW, Uri.parse(urlstr))
+               startActivity(intent)
+        }
     }
 }
